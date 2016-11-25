@@ -1,7 +1,7 @@
 package fcu.iecs.oop.pokemon;
 
 public class Pokemon {
-	private String name;
+	private final String name;
 	private int cp;
 	
 	public Pokemon(String name, int cp) {
