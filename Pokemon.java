@@ -4,7 +4,7 @@ public class Pokemon {
 	private String name;
 	private int cp;
 	
-	Pokemon(String name, int cp) {
+	public Pokemon(String name, int cp) {
 		this.name = name;
 		this.cp = cp;
 	}
