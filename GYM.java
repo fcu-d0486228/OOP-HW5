@@ -6,10 +6,10 @@ public class GYM {
 		
 		if (rand % 2 != 0) {
 			System.out.println("Winner is " + p1.getName() + ".");
-			p1.setCp(p1.getCp() + 50);
+			p1.setCp(p1.getCp() + 500);
 		} else {
 			System.out.println("Winner is " + p2.getName() + ".");
-			p2.setCp(p2.getCp() + 50);
+			p2.setCp(p2.getCp() + 500);
 		}
 	}
 }
